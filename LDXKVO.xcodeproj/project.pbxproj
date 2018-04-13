@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0CE9601CFC2EE2005D17B2 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0CE95F1CFC2EE2005D17B2 /* abc.m */; };
+		0C314C891C3E603C00A97733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C314C881C3E603C00A97733 /* main.m */; };
+		0C314C8C1C3E603C00A97733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C314C8B1C3E603C00A97733 /* AppDelegate.m */; };
+		0C314C8F1C3E603C00A97733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C314C8E1C3E603C00A97733 /* ViewController.m */; };
+		0C314C921C3E603C00A97733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C314C901C3E603C00A97733 /* Main.storyboard */; };
+		0C314C941C3E603C00A97733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C314C931C3E603C00A97733 /* Assets.xcassets */; };
+		0C314C971C3E603C00A97733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C314C951C3E603C00A97733 /* LaunchScreen.storyboard */; };
+		0C314CA31C3E605700A97733 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C314CA21C3E605700A97733 /* Person.m */; };
+		0C37C6481CA5303C00912C70 /* KVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C37C6471CA5303C00912C70 /* KVOInfo.m */; };
+		0C49FC511CFEFBAE00797A93 /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C49FC501CFEFBAE00797A93 /* AA.m */; };
+		0C49FC541CFEFD0300797A93 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C49FC531CFEFD0300797A93 /* NSObject+KVO.m */; };
+		855B1DE56CFF20935365B9CE /* libPods-LDXKVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AED7784E57B487FD39701C3 /* libPods-LDXKVO.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C0CE95E1CFC2EE2005D17B2 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		0C0CE95F1CFC2EE2005D17B2 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
+		0C314C841C3E603C00A97733 /* LDXKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDXKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C314C881C3E603C00A97733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C314C8A1C3E603C00A97733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C314C8B1C3E603C00A97733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C314C8D1C3E603C00A97733 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C314C8E1C3E603C00A97733 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C314C911C3E603C00A97733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C314C931C3E603C00A97733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C314C961C3E603C00A97733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C314C981C3E603C00A97733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C314CA11C3E605700A97733 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0C314CA21C3E605700A97733 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0C37C6461CA5303C00912C70 /* KVOInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOInfo.h; sourceTree = "<group>"; };
+		0C37C6471CA5303C00912C70 /* KVOInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOInfo.m; sourceTree = "<group>"; };
+		0C49FC4F1CFEFBAE00797A93 /* AA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA.h; sourceTree = "<group>"; };
+		0C49FC501CFEFBAE00797A93 /* AA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AA.m; sourceTree = "<group>"; };
+		0C49FC521CFEFD0300797A93 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		0C49FC531CFEFD0300797A93 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		1AED7784E57B487FD39701C3 /* libPods-LDXKVO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDXKVO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B15A828194A76A7BD21A1F /* Pods-KVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVO/Pods-KVO.release.xcconfig"; sourceTree = "<group>"; };
+		46C424C653030571D658A77D /* Pods-KVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVO/Pods-KVO.debug.xcconfig"; sourceTree = "<group>"; };
+		A26E52CEEF7B8EE85962D916 /* Pods-LDXKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDXKVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDXKVO/Pods-LDXKVO.release.xcconfig"; sourceTree = "<group>"; };
+		F4A7F6B6376432A0C5CA0BD1 /* Pods-LDXKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDXKVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDXKVO/Pods-LDXKVO.debug.xcconfig"; sourceTree = "<group>"; };
+		F63626C5C0298C7C66E36EC4 /* libPods-KVO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C314C811C3E603C00A97733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B1DE56CFF20935365B9CE /* libPods-LDXKVO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C314C7B1C3E603C00A97733 = {
+			isa = PBXGroup;
+			children = (
+				0C53FB192081145A007BA2A5 /* Classes */,
+				0C314C861C3E603C00A97733 /* LDXKVO */,
+				0C314C851C3E603C00A97733 /* Products */,
+				162B51C1A94244EBC15430FB /* Pods */,
+				EEB517BC56FC51CE800021D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C314C851C3E603C00A97733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C314C841C3E603C00A97733 /* LDXKVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C314C861C3E603C00A97733 /* LDXKVO */ = {
+			isa = PBXGroup;
+			children = (
+				0C314C8A1C3E603C00A97733 /* AppDelegate.h */,
+				0C314C8B1C3E603C00A97733 /* AppDelegate.m */,
+				0C314C8D1C3E603C00A97733 /* ViewController.h */,
+				0C314C8E1C3E603C00A97733 /* ViewController.m */,
+				0C314CA11C3E605700A97733 /* Person.h */,
+				0C314CA21C3E605700A97733 /* Person.m */,
+				0C49FC4F1CFEFBAE00797A93 /* AA.h */,
+				0C49FC501CFEFBAE00797A93 /* AA.m */,
+				0C0CE95E1CFC2EE2005D17B2 /* abc.h */,
+				0C0CE95F1CFC2EE2005D17B2 /* abc.m */,
+				0C314C901C3E603C00A97733 /* Main.storyboard */,
+				0C314C931C3E603C00A97733 /* Assets.xcassets */,
+				0C314C951C3E603C00A97733 /* LaunchScreen.storyboard */,
+				0C314C981C3E603C00A97733 /* Info.plist */,
+				0C314C871C3E603C00A97733 /* Supporting Files */,
+			);
+			path = LDXKVO;
+			sourceTree = "<group>";
+		};
+		0C314C871C3E603C00A97733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C314C881C3E603C00A97733 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C53FB192081145A007BA2A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C37C6461CA5303C00912C70 /* KVOInfo.h */,
+				0C37C6471CA5303C00912C70 /* KVOInfo.m */,
+				0C49FC521CFEFD0300797A93 /* NSObject+KVO.h */,
+				0C49FC531CFEFD0300797A93 /* NSObject+KVO.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		162B51C1A94244EBC15430FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C424C653030571D658A77D /* Pods-KVO.debug.xcconfig */,
+				31B15A828194A76A7BD21A1F /* Pods-KVO.release.xcconfig */,
+				F4A7F6B6376432A0C5CA0BD1 /* Pods-LDXKVO.debug.xcconfig */,
+				A26E52CEEF7B8EE85962D916 /* Pods-LDXKVO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEB517BC56FC51CE800021D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63626C5C0298C7C66E36EC4 /* libPods-KVO.a */,
+				1AED7784E57B487FD39701C3 /* libPods-LDXKVO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C314C831C3E603C00A97733 /* LDXKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C314C9B1C3E603C00A97733 /* Build configuration list for PBXNativeTarget "LDXKVO" */;
+			buildPhases = (
+				054B6121158738E2BD23802B /* [CP] Check Pods Manifest.lock */,
+				0C314C801C3E603C00A97733 /* Sources */,
+				0C314C811C3E603C00A97733 /* Frameworks */,
+				0C314C821C3E603C00A97733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDXKVO;
+			productName = KVO;
+			productReference = 0C314C841C3E603C00A97733 /* LDXKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C314C7C1C3E603C00A97733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "百度";
+				TargetAttributes = {
+					0C314C831C3E603C00A97733 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C314C7F1C3E603C00A97733 /* Build configuration list for PBXProject "LDXKVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C314C7B1C3E603C00A97733;
+			productRefGroup = 0C314C851C3E603C00A97733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C314C831C3E603C00A97733 /* LDXKVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C314C821C3E603C00A97733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C314C971C3E603C00A97733 /* LaunchScreen.storyboard in Resources */,
+				0C314C941C3E603C00A97733 /* Assets.xcassets in Resources */,
+				0C314C921C3E603C00A97733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054B6121158738E2BD23802B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDXKVO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C314C801C3E603C00A97733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C314C8F1C3E603C00A97733 /* ViewController.m in Sources */,
+				0C49FC511CFEFBAE00797A93 /* AA.m in Sources */,
+				0C314C8C1C3E603C00A97733 /* AppDelegate.m in Sources */,
+				0C314CA31C3E605700A97733 /* Person.m in Sources */,
+				0C49FC541CFEFD0300797A93 /* NSObject+KVO.m in Sources */,
+				0C314C891C3E603C00A97733 /* main.m in Sources */,
+				0C37C6481CA5303C00912C70 /* KVOInfo.m in Sources */,
+				0C0CE9601CFC2EE2005D17B2 /* abc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C314C901C3E603C00A97733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C314C911C3E603C00A97733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C314C951C3E603C00A97733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C314C961C3E603C00A97733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C314C991C3E603C00A97733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C314C9A1C3E603C00A97733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C314C9C1C3E603C00A97733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A7F6B6376432A0C5CA0BD1 /* Pods-LDXKVO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LDXKVO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxu.KVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C314C9D1C3E603C00A97733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26E52CEEF7B8EE85962D916 /* Pods-LDXKVO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LDXKVO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liuxu.KVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C314C7F1C3E603C00A97733 /* Build configuration list for PBXProject "LDXKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C314C991C3E603C00A97733 /* Debug */,
+				0C314C9A1C3E603C00A97733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C314C9B1C3E603C00A97733 /* Build configuration list for PBXNativeTarget "LDXKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C314C9C1C3E603C00A97733 /* Debug */,
+				0C314C9D1C3E603C00A97733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C314C7C1C3E603C00A97733 /* Project object */;
+}
